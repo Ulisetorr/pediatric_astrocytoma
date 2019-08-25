@@ -1,0 +1,22 @@
+Sample,Histopatologic_group ,Molecular_classification,Localization,Age_(y),Gender
+M7,I,WT,Cerebellum,6,F
+M8,I,WT,Cerebellum,19,F
+M20,I,WT,Cerebellum,7,F
+CM30,I,WT,Brain,16,M
+CM71,I,WT,Brain,15,M
+M46,I,WT,Brain,16,F
+CM15,II,WT,Brain,6,F
+CM39,II,WT,Brain stem,3,M
+CM75,II,WT,Brain,15,M
+CM54,III,WT,Brain,16,F
+M69 (2),III,WT,Brain,12,F
+M29,III,WT,Brain,14,M
+CM8,IV,WT,Brain,17,M
+M10,IV,WT,Brain,16,F
+M49,IV,IDH1-KO,Brain,14,F
+A10A,Control,WT,Brain,13,M
+A12A,Control,WT,Brain,New born,M
+M102,Control contiguous ,WT,Brain,12,F
+A12B,Control,WT,Cerebellum,New born,M
+M94,Control contiguous ,WT,Cerebellum,3,F
+M108,Control contiguous ,WT,Cerebellum,5,F

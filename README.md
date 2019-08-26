@@ -11,10 +11,7 @@ The libraries were made from Total RNA, (rRNA-depleted) from tumors and contiguo
 Find expression hallmarks that characterized each astrocytoma grade according to the histopathological and molecular classification.
 
 
-## General workflow
 
-![](Bulk work-flow.png)
-.
 
 ## Repository content 
 

@@ -45,9 +45,9 @@ Alignment to make the quality control of the alignment. Clipping profile and gen
 
 Manipulation of SAM files using samtools. 
 
-1. Transform SAM > BAM 
-2. Sort by coordinates
-3. Index BAM files —> .bam.bai
+* Transform SAM > BAM 
+* Sort by coordinates
+* Index BAM files —> .bam.bai
 
 
 6. **featureCounts.sh** 

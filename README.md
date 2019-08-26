@@ -14,6 +14,7 @@ Find expression hallmarks that characterized each astrocytoma grade according to
 ## General workflow
 
 ![](Bulk work-flow.png)
+.
 
 ## Repository content 
 

@@ -1,0 +1,22 @@
+Sample,Histopatologic_group ,Molecular_classification,Localization,Age_(y),Gender,Pathology
+A10A,Control,WT,Brain,13,M,Normal
+A12A,Control,WT,Brain,New born,M,Normal
+A12B,Control,WT,Cerebellum,New born,M,Normal
+CM15,II,WT,Brain,6,F,Cancer
+CM30,I,WT,Brain,16,M,Cancer
+CM39,II,WT,Brain stem,3,M,Cancer
+CM54,III,WT,Brain,16,F,Cancer
+CM71,I,WT,Brain,15,M,Cancer
+CM75,II,WT,Brain,15,M,Cancer
+CM8,IV,WT,Brain,17,M,Cancer
+M10,IV,WT,Brain,16,F,Cancer
+M102,ControlC,WT,Brain,12,F,ControlC
+M108,ControlC,WT,Cerebellum,5,F,ControlC
+M20,I,WT,Cerebellum,7,F,Cancer
+M29,III,WT,Brain,14,M,Cancer
+M46,I,WT,Brain,16,F,Cancer
+M49,IV,IDH1-KO,Brain,14,F,Cancer
+M692,III,WT,Brain,12,F,Cancer
+M7,I,WT,Cerebellum,6,F,Cancer
+M8,I,WT,Cerebellum,19,F,Cancer
+M94,ControlC,WT,Cerebellum,3,F,ControlC

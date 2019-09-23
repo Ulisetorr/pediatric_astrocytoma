@@ -82,4 +82,4 @@ Metadata of the tumor and cotigous tissue samples.
 * Age_(y)
 * Gender
 
-
+Also, here you will find a code-key in this [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/meta/Readme_meta.md). 

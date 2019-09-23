@@ -10,9 +10,9 @@ In this column, you will find the names of the samples that I'm working with and
 
 >For the prefixes:
 
-* **A.-**  Stands for
-* **CM.-**  Stands for 
-* **M.-**  Stands for
+* **A.-**  Stands for "autopsy".
+* **CM.-**  Stands for "Centro Médico" where the biopsy was taken.
+* **M.-**  Stands for "Muestra" biopsy form Hospital Infantil. 
 
 
 ### Histopathologic_group

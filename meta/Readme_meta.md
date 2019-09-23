@@ -28,7 +28,7 @@ You will also find "ControlC" that stands for Control contiguous. Those are samp
 
 
 ### Molecular_classification 
-In this column, you will find to which molecular category does each sample belongs. This classification is according to the 2016 WHO recommendation for diagnosis. You can find out more about this classification in  [this paper]((https://www.ncbi.nlm.nih.gov/pubmed/27157931). 
+In this column, you will find to which molecular category does each sample belongs. This classification is according to the 2016 WHO recommendation for diagnosis. You can find out more about this classification in  [this paper](https://www.ncbi.nlm.nih.gov/pubmed/27157931). 
 
 As you will see, all samples are classified as "WT".  Meaning that there are no mutations recognized by the WHO to classify these tumors. 
 

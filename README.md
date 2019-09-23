@@ -21,7 +21,7 @@ Here you will find 4 directories to perform the analysis.
 
 >### /Bin/
   
-  Here you will find the scripts that are needed to perform the analysis. They must be used in the order that it's specified. The QC steps may be optional.
+  Here you will find the scripts that are needed to perform the analysis. They must be used in the order that it's specified. The QC steps for RNAquatification and AlignmentQC may be optional.
   
    1. **FastQC.sh** 
   

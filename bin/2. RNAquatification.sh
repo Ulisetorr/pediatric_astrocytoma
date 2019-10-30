@@ -1,24 +1,40 @@
-## RNA quantification pipeline
+### RNA quantification pipeline
 
-## Loading dependencies
-#export PATH=$PATH:inst/stringtie/
-#export PATH=$PATH:inst/samtools-1.9
+## These scripts perform a "pseudo-alignment" against a reference fasta file so you can measure the percentage of reads that align to your sequence of interest.
+#In this case, I measure how much ribosomal and mitochondrial reads do my samples had.
+#This script is run in STAR
 
-## path to star
-star_PATH=sc/STAR/bin/MacOSX_x86_64/STAR
-
-## indexing genome
-echo RUNNING:./$star_PATH --runMode genomeGenerate --genomeDir data/star_indexed_genome/ --genomeFastaFiles data/reference_genome/Homo_sapiens.GRCh38.dna.primary_assembly.fa --sjdbOverhang 100 --sjdbGTFfile data/annotations/Homo_sapiens.GRCh38.96.gtf --runThreadN 18
-./$star_PATH --runMode genomeGenerate --genomeDir data/star_indexed_genome/ --genomeFastaFiles data/reference_genome/Homo_sapiens.GRCh38.dna.primary_assembly.fa --sjdbOverhang 100 --sjdbGTFfile data/annotations/Homo_sapiens.GRCh38.96.gtf --runThreadN 18
+#First index both fasta files 
+#Considering you are running from the bin directory
 
 ## indexing mitochondria
-#./$star_PATH --runMode genomeGenerate --genomeDir data/star_indexed_mit --genomeFastaFiles data/mitocondria/homo_sap_mitocondria.fa --runThreadN 16 --genomeSAindexNbases 6
+star --runMode genomeGenerate --genomeDir ../data/Mithocondria_index --genomeFastaFiles ../data/Mithocondria.fa --runThreadN 16 
 
 ## indexing ribosomal unit
-#./$star_PATH --runMode genomeGenerate --genomeDir data/star_indexed_ribo --genomeFastaFiles data/ribosomal/human_rrna.fa --runThreadN 16
+star --runMode genomeGenerate --genomeDir ../data/Ribosomal_index --genomeFastaFiles data/Ribosomal.fa --runThreadN 16
 
-## indexing cdna
-#./$star_PATH --runMode genomeGenerate --genomeDir data/star_indexed_cdna --genomeFastaFiles data/reference_genome/Homo_sapiens.GRCh38.cdna.all.fa --runThreadN 16 --limitGenomeGenerateRAM=10000000000000
+
+##Where: 
+# --readFiles --> fastq files to align
+#--runMode genomeGenerate --> Specify STAR to index de DNA
+#--genomeDir --> Where to put the indexed genome
+#--genomeFastaFiles  --> Where is the fasta input file
+#--runThreadN --> How many Threads to run
+
+ ############ Then you can run the alignment toward this indexed fasta files.
+ #The information of interest will be in the .log file generated at the end
+ #You will know the percentage of reads that align to both fasta files
+
+
+## alignment to mitochondria
+star --readFilesIn ../data/Fastq/*.fastq --genomeDir ../data/Ribosomal_index --runThreadN 16 --outFileNamePrefix ../Reports/Ribosomal
 
 ## alignment to ribosomal unit 
-#./$star_PATH --readFilesIn data/qual_check/sample_seqs/M94_S20_L005_R1_001.fastq data/qual_check/sample_seqs/M94_S20_L005_R2_001.fastq --genomeDir data/star_indexed_ribo/ --runThreadN 16 --outFileNamePrefix data/qual_check/star/
+star --readFilesIn ../data/Fastq/*.fastq --genomeDir ../data/Mithocondria_index --runThreadN 16 --outFileNamePrefix ../Reports/Mithocondria
+
+
+##Where: 
+# --readFiles --> fastq files to align
+#--genomeDir --> Where the indexed genome is
+#--outFileNamePrefix --> Where to send the output files and what name will have
+#--runThreadN --> How many Threads to run

@@ -101,8 +101,16 @@ You will find the output QC reports in Reports > FastQC > [Readme_FastQC.md](htt
 
 >### /data/
 
-Fasta files to perform alignments and link to [Fastq files](https://osf.io/spmrq/?view_only=dfd16c89a6474e9f8a0299de1bbcde0a)
-in [OSF](https://osf.io/).
+Data files:
+
+* Fasta files for alignment
+  * [Human mithocondrial genome](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/data/Mithocondria.fa) 
+  * [Human ribosomal](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/data/Ribosomal.fa)
+  * [Homo_sapiens.GRCh38.dna](https://github.com/FernandaDiaz12/pediatric_astrocytoma/edit/master/data/Reference%20genome.md)
+
+* [Fastq files](https://osf.io/spmrq/?view_only=dfd16c89a6474e9f8a0299de1bbcde0a)in [OSF](https://osf.io/).
+
+* Count table [21_astrocytoma.csv](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/data/21_astrocytoma.csv)
 
 >### /meta/
 

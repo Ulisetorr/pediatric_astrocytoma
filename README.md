@@ -39,30 +39,30 @@ Then, in R from the console or [R studio](https://rstudio.com/) you will need to
 
 ### Repository content 
 
-Here you will find 4 directories to perform the analysis, and  2 more with extra information that can be useful if you are following this pipeline. 
+Here you will find 4 directories to perform the analyses. Two extra folders contain additonal information that can be useful to use this pipeline. 
 
 
 
 >### /bin/
   
-  Here you will find the scripts that are needed to perform the analysis. They must be used in the order that it's specified. The QC steps for RNAquatification and AlignmentQC may be optional.
+  Here you will find the scripts that are needed to perform the analyses. The scripts must be used in the order specified. The QC steps for RNAquatification and AlignmentQC are optional.
   
    1. **FastQC.sh** 
   
-  Performs a quality control analysis for each fastq file. Additionally, MultiQC condense the reports for each sample to a single file.
+  Performs a quality control analysis for each fastq file. Additionally, MultiQC condenses the reports for each sample to a single file.
   
    2. **RNAquatification.sh** 
   
-  A semi-alignment using STAR to quantify a percentage of how many rRNA and mtRNA reads are in each sample.
+  A semi-alignment using STAR to quantify the percentage of rRNA and mtRNA reads in each sample.
   
  
   3. **STAR.sh** 
 
-Genome indexing, and alignment to a reference genome.
+Genome indexing and alignment to a reference genome.
 
 4. **AlignmentQC.sh** 
 
-Alignment to make the quality control of the alignment. Clipping profile and gene coverage analysis.
+Quality control of the alignment, including clipping profile and gene coverage analyses.
 
 
 5. **SAM manipulation.sh** 
@@ -95,8 +95,8 @@ Perform a Gene Set Enrichment Analysis form command line. (BASH)
 
 >### /Reports/
 
-Output directory to save QC and log reports. 
-You will find the output QC reports in Reports > FastQC > [Readme_FastQC.md](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Reports/FastQC/Readme_FastQC.md) since GitHub doesn't allow HTML files. 
+Output directory with QC and log reports. 
+The output QC reports are located in in Reports > FastQC > [Readme_FastQC.md](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Reports/FastQC/Readme_FastQC.md) since GitHub doesn't allow HTML files. 
 
 
 >### /data/
@@ -114,7 +114,7 @@ Data files:
 
 >### /meta/
 
-Metadata of the tumor and cotigous tissue samples. 
+Metadata of the tumor and contiguous tissue samples. 
 
 * Sample name
 * Histopatologic_group
@@ -123,26 +123,26 @@ Metadata of the tumor and cotigous tissue samples.
 * Age_(y)
 * Gender
 
-Also, here you will find a code-key in this [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/meta/Readme_meta.md). 
+A code-key explaining the meaning of each meta-data cathegory can be find in the [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/meta/Readme_meta.md). 
 
 
-### Those are the 4 directories that are necessary to perform the analysis, now two directories with some extra information that can be useful. 
+### The folders described above are the 4 directories that are necessary to perform the analyses. The following two directories present additionnal information that can be useful. 
 
 
 >### /Issues/
 
-Here you will find a [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Issues/Readme_Issues.md) with a link to the issues that I presented in the Bioinformatics workshop at CONABIO. Also, some mock data files to run the script from where I needed help in the issues. 
+Here you will find a [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Issues/Readme_Issues.md) with a link to the issues that I presented in the Bioinformatics workshop at CONABIO, as well as some mock data files to run the scripts for which I needed help in the issues. 
 
 
 >### /Presentation/
 
-Inside is an md file: [Presentations](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Presentation/Presentation.md) where you can find a small description of both of the presentations that are inside this directory. Both were presented in class. 
+This folder contains an md file: [Presentations](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Presentation/Presentation.md) where you can find a small description of both presentations that I did during the class. 
 
 
 
 ## Finally... 
 
 
-You will find a markdown file ["Analysis"](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Analysis.md) with a results discussion. The obtained R graphics. And some tips to run the analysis. 
+You will find a markdown file ["Analysis"](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Analysis.md) with a short presentation and discussion of my results, including the graphics obtained in R and some tips to run the analysis. 
 
 

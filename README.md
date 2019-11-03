@@ -136,13 +136,13 @@ Here you will find a [Readme](https://github.com/FernandaDiaz12/pediatric_astroc
 
 >### /Presentation/
 
-This folder contains an md file: [Presentations](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Presentation/Presentation.md) where you can find a small description of both presentations that I did during the class. 
+This folder contains an markdown file [Presentations](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Presentation/Presentation.md) where you can find a small description of both presentations that I did during the class. 
 
 
 
 ## Finally... 
 
 
-You will find a markdown file ["Analysis"](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Analysis.md) with a short presentation and discussion of my results, including the graphics obtained in R and some tips to run the analysis. 
+You will find a markdown file [Analysis](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Analysis.md) with a short presentation and discussion of my results, including the graphics obtained in R and some tips to run the analysis. 
 
 

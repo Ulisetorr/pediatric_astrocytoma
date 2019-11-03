@@ -1,3 +1,3 @@
 Analysis
 
-Here you will find the results analysis. And the R graphics.  
+Here you will find some preliminary results of my data analyses, including the graphics produced in R.  

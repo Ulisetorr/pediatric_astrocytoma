@@ -25,8 +25,7 @@ Before starting the analysis here are the programs that need to be installed:
 * [R](https://www.r-project.org/)
 * [GSEA](http://software.broadinstitute.org/gsea/index.jsp)
 
-
-Then, in R from the console or [R studio](https://rstudio.com/) you will need to download the following libraries:
+Then, in R install the following libraries:
 
 * [BiocManager](https://cran.r-project.org/web/packages/BiocManager/vignettes/BiocManager.html)
 * [edgeR](http://bioconductor.org/packages/release/bioc/html/edgeR.html)
@@ -39,13 +38,16 @@ Then, in R from the console or [R studio](https://rstudio.com/) you will need to
 
 ### Repository content 
 
-Here you will find 4 directories to perform the analyses. Two extra folders contain additonal information that can be useful to use this pipeline. 
+* 4 directories to perform the analyses. 
+* 2 extra directories contain additonal information.
 
 
 
 >### /bin/
   
-  Here you will find the scripts that are needed to perform the analyses. The scripts must be used in the order specified. The QC steps for RNAquatification and AlignmentQC are optional.
+Scripts to perform the analyses. 
+ These must be runned in the order specified.
+ The QC steps for RNAquatification and AlignmentQC are optional.
   
    1. **FastQC.sh** 
   
@@ -123,26 +125,33 @@ Metadata of the tumor and contiguous tissue samples.
 * Age_(y)
 * Gender
 
-A code-key explaining the meaning of each meta-data cathegory can be find in the [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/meta/Readme_meta.md). 
+Code-key in the [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/meta/Readme_meta.md). 
 
 
-### The folders described above are the 4 directories that are necessary to perform the analyses. The following two directories present additionnal information that can be useful. 
+### End of analysis directories
+
+### Directories w/ additiaonal informatio. 
 
 
 >### /Issues/
 
-Here you will find a [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Issues/Readme_Issues.md) with a link to the issues that I presented in the Bioinformatics workshop at CONABIO, as well as some mock data files to run the scripts for which I needed help in the issues. 
+* [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Issues/Readme_Issues.md) describing the issues.
+* Mock data files 
 
 
 >### /Presentation/
 
-This folder contains an markdown file [Presentations](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Presentation/Presentation.md) where you can find a small description of both presentations that I did during the class. 
+* [Presentations](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Presentation/Presentation.md)readme 
+* [GSEA_compressed](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Presentation/GSEA_compressed.pdf)
+* [lighting talk](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Presentation/lighting%20talk.pdf)
 
 
 
 ## Finally... 
 
+[Analysis](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Analysis.md) file.
 
-You will find a markdown file [Analysis](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Analysis.md) with a short presentation and discussion of my results, including the graphics obtained in R and some tips to run the analysis. 
-
+* Results 
+* Analysis
+* R graphics  
 

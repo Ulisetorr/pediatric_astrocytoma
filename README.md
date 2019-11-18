@@ -85,6 +85,8 @@ Create a count matrix using featureCounts from Subread.
 
 Here, you will find a sub-directory with the following scripts: 
 
+* **7.0 edgeR_libraries(just once) .R.-** Package installation. Only run once. Run before the next ones. 
+
 * **Cancer-Normal .R.-** Filtering, normalization (TMM) and paired differential expression anlaysis between Cancer samples and Normal samples.  
 
 * **Multi-group DE.R.-** Filtering, normalization (TMM) and multigroup expression anlaysis among all the histhopathological categories to find differentailly expressed (DE) genes unique to each category. 

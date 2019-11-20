@@ -23,7 +23,6 @@ Before starting the analysis here are the programs that need to be installed:
 * [samtools](http://www.htslib.org/)
 * featureCounts [Subread package](http://subread.sourceforge.net/)
 * [R](https://www.r-project.org/)
-* [GSEA](http://software.broadinstitute.org/gsea/index.jsp)
 
 Then, in R install the following libraries:
 
@@ -90,9 +89,6 @@ Here, you will find a sub-directory with the following scripts:
 * **Cancer-Normal .R.-** Filtering, normalization (TMM) and paired differential expression anlaysis between Cancer samples and Normal samples.  
 
 * **Multi-group DE.R.-** Filtering, normalization (TMM) and multigroup expression anlaysis among all the histhopathological categories to find differentailly expressed (DE) genes unique to each category. 
-
-
-
 
 >### /Reports/
 

@@ -95,6 +95,8 @@ Here, you will find a sub-directory with the following scripts:
 Output directory with QC and log reports. 
 The output QC reports are located in in Reports > FastQC > [Readme_FastQC.md](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Reports/FastQC/Readme_FastQC.md) since GitHub doesn't allow HTML files. 
 
+Also, you will find the analysis md file [Analysis](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Reports/Analysis.md).
+
 
 >### /data/
 
@@ -144,7 +146,7 @@ Code-key in the [Readme](https://github.com/FernandaDiaz12/pediatric_astrocytoma
 
 ## Finally... 
 
-[Analysis](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Analysis.md) file.
+[Analysis](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/Reports/Analysis.md) file.
 
 * Results 
 * Analysis

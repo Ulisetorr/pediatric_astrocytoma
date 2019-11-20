@@ -74,7 +74,8 @@ With this plot, we can see that the controls cluster together. And that most low
 For the last part of the analysis, to create a table with differentially expressed genes I needed to define the comparations among the groups. I was able to define them in my script [Multi-group DE.R](https://github.com/FernandaDiaz12/pediatric_astrocytoma/blob/master/bin/7.%20edgeR/Multi-group%20DE.R) this was last week. So I wasn't able to perform the GSEA analysis. 
 
 
-###Conclusions 
+### Conclusions 
+
 This first approach gives me a general overview of the transcriptional landscape of the samples from pediatric astrocytoma. Utili this point we can see that there are more clear differences between the Cancer and Normal conditions in contrast to the differences among the histopathological groups. Further analysis like GSEA and isoform analysis will elucidate if there are in fact clear transcriptional differences among the groups. 
 
 

@@ -1,3 +1,13 @@
-Analysis
+# Analysis of pediatric astrocytoma transcriptome
 
-Here you will find some preliminary results of my data analyses, including the graphics produced in R.  
+Central nervous system (CNS) tumors are a heterogeneous group and represent the most common solid tumors during childhood of humans [(Dang & Phillips, 2017)](https://www.ncbi.nlm.nih.gov/pubmed/29200119). Gliomas or astrocytomas are those tumors caused by astrocytes, which are divided into subgroups according to their clinical-pathological characteristics and histological subtype. In children, the most common glial tumors are astrocytomas ([Bethesda, 2002](https://www.ncbi.nlm.nih.gov/books/NBK82221/)). In Mexico alone, they represent 32% of CNS tumors in infants ([Eguía-Aguilar et al., 2014](https://www.ncbi.nlm.nih.gov/pubmed/24718706)).
+
+Until 2016, the World Health Organization classified astrocytomas according to clinical-pathological and histological sub-types in grades I through IV ([Louis et al., 2007](https://www.ncbi.nlm.nih.gov/pubmed/?term=Louis%2C+D.+N.%2C+Ohgaki%2C+H.%2C+Wiestler%2C+O.+D.%2C+Cavenee%2C+W.+K.%2C+Burger%2C+P.+C.%2C+Jouvet%2C+A.%2C+%E2%80%A6+Kleihues%2C+P.+(2007).+The+2007+WHO+classification+of+tumours+of+the+central+nervous+system.+Acta+Neuropathologica%2C+114(2)%2C+97-109.+https%3A%2F%2Fdoi.org%2F10.1007%2Fs00401-007-0243-4)). However, with the expansion of genomic studies, the understanding of these tumors changed, establishing a new classification system based on molecular tools for diagnosis. In this, pediatric astrocytomas are reorganized into two groups ([Louis et al., 2016](https://www.ncbi.nlm.nih.gov/pubmed/27157931)):
+
+**1. Diffuse astrocytomas:** Groups anaplastic, diffuse and gliomas astrocytomas according to their recurrent mutations in the IDH1, IDH2 and H3F3A genes.
+
+**2. Other astrocytomas:** Those astrocytomas with a more restricted growth pattern and absence of the aforementioned recurrent mutations.
+
+Being a public health problem worldwide and nationally, the search for white biomarkers has become a therapeutic strategy that has been approached from different biological aspects. A common strategy to identify such markers is to analyze the transcriptome of tumors by mass sequencing. This technique has been used successfully to identify biological markers in the different histopathological degrees of astrocytomas in adults and some types of pediatric astrocytomas and gliomas ([Seifert et al., 2015](https://bmccancer.biomedcentral.com/articles/10.1186/s12885-015-1939-9)). However, this technique has not been implemented under the new model of molecular classification of this type of tumors. Which would allow the search for new specific biomarkers for each cell sub-type.
+
+With the objective of charaterize the transcriptome of the different histopathological grades 

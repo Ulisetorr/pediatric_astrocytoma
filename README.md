@@ -92,9 +92,6 @@ Here, you will find a sub-directory with the following scripts:
 * **Multi-group DE.R.-** Filtering, normalization (TMM) and multigroup expression anlaysis among all the histhopathological categories to find differentailly expressed (DE) genes unique to each category. 
 
 
-8. **GSEA** 
-
-Perform a Gene Set Enrichment Analysis form command line. (BASH) 
 
 
 >### /Reports/

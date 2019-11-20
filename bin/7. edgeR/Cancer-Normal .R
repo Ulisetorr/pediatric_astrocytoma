@@ -1,5 +1,5 @@
 
-###First download and charge the libraries in  
+###First download and charge the libraries in the script 7.0 edgeR_libraries(just once).R
 
 ##Upload data
 ##Your working directory must be /bin/

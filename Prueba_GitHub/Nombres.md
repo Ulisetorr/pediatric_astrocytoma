@@ -1,8 +1,8 @@
 ## Nombres bioinformatic hub
 
-1. Ulises Torres
+1. 
 
-2.
+2. Ulises Torres
 
 3.
 

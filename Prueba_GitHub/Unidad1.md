@@ -394,6 +394,8 @@ Al final deberás incluir en tu README una pequeña explicación de qué hace ca
 
 Es muy buena idea llevar un control de versiones de tus scrips en tu carpeta `bin`.
 
+![](git-branches-merge.png)
+
 Sin embargo, cuando subas tu proyecto con todo y datos como un repositorio (e.g. a Dryad) recuerda **NO** compartir la carpeta `.git`.
 
 Como introducción a `git` primero vamos a entender los principales conceptos y el [flujo de trabajo de Github leyendo esta documentación](https://guides.github.com/introduction/flow/). 
